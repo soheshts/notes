@@ -111,11 +111,11 @@ class _NotesHomePageState extends State<NotesHomePage> {
                             return Container(
                               child: new Wrap(
                                 children: <Widget>[
-                                  new ListTile(
+                                  /*new ListTile(
                                       leading: new Icon(Icons.update),
                                       title: new Text('Update'),
                                       onTap: () => {}
-                                  ),
+                                  ),*/
                                   new ListTile(
                                     leading: new Icon(Icons.delete),
                                     title: new Text('Delete'),
